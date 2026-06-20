@@ -22,3 +22,4 @@ resource "google_bigquery_dataset_access" "access" {
   user_by_email = google_service_account.bqowner.email
 }
 
+
