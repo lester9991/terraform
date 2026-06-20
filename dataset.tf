@@ -21,4 +21,3 @@ resource "google_bigquery_dataset_access" "access" {
   role          = "roles/bigquery.dataOwner"
   user_by_email = google_service_account.bqowner.email
 }
-
